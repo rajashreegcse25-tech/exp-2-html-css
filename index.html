@@ -1,51 +1,46 @@
 <html>
 <head>
-<title>Sneaker Page</title>
+<title>Sneaker Store</title>
 <link rel="stylesheet" href="exp.css">
 </head>
 
 <body>
 
+<div class="navbar">
+  <h2>Sneaker Shop</h2>
+  <div class="cart"> Cart: <span id="cartCount">0</span></div>
+</div>
+
 <div class="container">
 
-<div>
-<img src="snek.png" width="200px">
+  <div class="image">
+    <img src="snek.png" width="220px">
+  </div>
+
+  <div class="details">
+    <h2>Sneakers</h2>
+    <p class="price">₹3500</p>
+
+    <p><b>Color:</b></p>
+    <label><input type="radio" name="c"> Grey</label>
+    <label><input type="radio" name="c"> Black</label>
+    <label><input type="radio" name="c"> White</label>
+
+    <p><b>Size:</b></p>
+    <label><input type="radio" name="s"> 6</label>
+    <label><input type="radio" name="s"> 7</label>
+    <label><input type="radio" name="s"> 8</label>
+
+    <br>
+
+    <button onclick="addToCart()">Add to Cart</button>
+    <button class="buy">Buy Now</button>
+
+    <p id="msg"></p>
+  </div>
+
 </div>
 
-<div>
-<h2>Sneakers</h2>
-<p>Price: ₹3500</p>
-
-<p>Color:</p>
-<input type="radio" name="c">grey
-<input type="radio" name="c">Black
-<input type="radio" name="c">White
-
-<p>Size:</p>
-<input type="radio" name="s">6
-<input type="radio" name="s">7
-<input type="radio" name="s">8
-
-<br><br>
-<button>
-Add to Cart
-</button>
-<p id="msg"></p>
-</div>
-
-</div>
-
-<h3>Customer Reviews</h3>
-
-<div>
-<b>Rahul:</b> Good shoes
-</div>
-<div>
-<b>Priya:</b> Nice design
-</div>
-<div>
-<b>Riya:</b> Comfortable
-</div>
-
+<script src="script.js"></script>
 </body>
 </html>
