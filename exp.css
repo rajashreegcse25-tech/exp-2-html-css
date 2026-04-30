@@ -1,39 +1,64 @@
 body {
-    font-family: Arial;
-    background-color: pink;
-    padding: 20px;
+  font-family: Arial;
+  margin: 0;
+  background-color: lavender;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: pink;
+  color: white;
+  padding: 10px 20px;
+}
+
+.cart {
+  font-size: 18px;
 }
 
 .container {
-    display: flex;
-    background-color: black;
-    padding: 15px;
-    width: 500px;
+  display: flex;
+  margin: 40px auto;
+  width: 600px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-img {
-    margin-right: 20px;
+.image img {
+  border-radius: 10px;
 }
+
+.details {
+  margin-left: 30px;
+}
+
+.price {
+  color: green;
+  font-size: 20px;
+}
+
+label {
+  display: block;
+  margin: 5px ;
+  cursor: pointer;
+}
+
 
 button {
-    background-color: black;
-    color: white;
-    padding: 8px 12px;
-    
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 button:hover {
-    background-color: gray;
+  background-color: brown;
 }
 
-h3 {
-    margin-top: 30px;
-}
-
-
-div {
-    background-color: white;
-    padding: 8px;
-    margin: 5px;
-    width: 250px;
+.buy {
+  background-color: black;
 }
