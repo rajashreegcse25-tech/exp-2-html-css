@@ -35,7 +35,7 @@ function addToCart() {
 
     alert("Item added to cart ");
 
-    // reset selection
+
     colors.forEach(c => c.checked = false);
     sizes.forEach(s => s.checked = false);
 }
